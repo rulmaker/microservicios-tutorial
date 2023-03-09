@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
         <module name="car-service" />
         <module name="user-service" />
         <module name="config-service" />
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="car-service" target="17" />
       <module name="config-service" target="1.8" />
+      <module name="eureka-service" target="1.8" />
       <module name="moto-service" target="1.8" />
       <module name="user-service" target="1.8" />
     </bytecodeTargetLevel>
@@ -23,6 +25,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="car-service" options="-parameters" />
       <module name="config-service" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
       <module name="moto-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
