@@ -1,0 +1,16 @@
+ spring:
+    application:
+        name: car-service
+    cloud:
+        config:
+            enabled: true
+            uri: http://localhost:8081
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: 1234
+        url: jdbc:mysql://localhost:3306/micro_car
+        username: root
+    jpa:
+        database: mysql
+        hibernate:
+            ddl-auto: update
